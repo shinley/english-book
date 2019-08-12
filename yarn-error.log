@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/shinley/program/node-v10.16.0-darwin-x64/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js docs:dev
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shinley/program/node-v10.16.0-darwin-x64/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Volumes/Data/vueworkspace/english-book/package.json: Unexpected string in JSON at position 191
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "english-book",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shinley/english-book.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shinley/english-book/issues"
+    },
+    "homepage": "https://github.com/shinley/english-book#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
