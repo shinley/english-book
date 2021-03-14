@@ -13,6 +13,12 @@ module.exports = {
                     '/life-english/chapter1/3.个人健康',
                     '/life-english/chapter1/4.出门在外',
                     '/life-english/chapter1/5.交通',
+                    '/life-english/chapter1/6.兴趣爱好',
+                    '/life-english/chapter1/7.图书馆',
+                    '/life-english/chapter1/8.网络购物',
+                    '/life-english/chapter1/9.租房',
+                    '/life-english/chapter1/10.逢年过节',
+                    '/life-english/chapter1/11.工作',
                 ]
             },
             {
