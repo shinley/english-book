@@ -12,6 +12,15 @@ module.exports = {
                     '/life-english/chapter1/2.个人习惯',
                     '/life-english/chapter1/3.个人健康',
                 ]
+            },
+            {
+                title: "旅游英语",
+                collapsable: true,
+                children: [
+                    '/life-english/chapter1/1.生活琐事',
+                    '/life-english/chapter1/2.个人习惯',
+                    '/life-english/chapter1/3.个人健康',
+                ]
             }
         ]
     }
