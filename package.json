@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shinley/english-book/issues"
   },
-  "homepage": "https://github.com/shinley/english-book#readme"
+  "homepage": "https://github.com/shinley/english-book#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
 }
